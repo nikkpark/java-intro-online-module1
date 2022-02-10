@@ -29,5 +29,4 @@ public class Task20 {
 	System.out.println();
 	System.out.println();
     }
-
 }
