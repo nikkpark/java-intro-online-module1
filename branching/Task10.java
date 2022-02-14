@@ -3,7 +3,6 @@ package ru.hitchin.module1.branching;
 /*
  * Задача 10.
  * Составить программу, которая определит площадь какого круга меньше.
- *
  */
 public class Task10 {
 

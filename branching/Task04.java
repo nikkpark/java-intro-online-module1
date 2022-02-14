@@ -5,7 +5,6 @@ import java.util.Scanner;
 /*
  * Задача 4.
  * Составить программу: равны ли два числа a и b?
- *
  */
 public class Task04 {
 

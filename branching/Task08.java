@@ -3,7 +3,6 @@ package ru.hitchin.module1.branching;
 /*
  * Задача 8.
  * Составить программу нахождения наименьшего из квадратов двух чисел a и b.
- *
  */
 public class Task08 {
 

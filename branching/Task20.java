@@ -3,7 +3,6 @@ package ru.hitchin.module1.branching;
 /*
  * Задача 20.
  * Определить, делителем каких чисел a, b, c является число к.
- *
  */
 public class Task20 {
 

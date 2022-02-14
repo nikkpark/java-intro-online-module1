@@ -3,7 +3,6 @@ package ru.hitchin.module1.branching;
 /*
  * Задача 11.
  * Составить программу, которая определит площадь какого треугольника больше.
- *
  */
 public class Task11 {
 

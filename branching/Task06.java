@@ -3,7 +3,6 @@ package ru.hitchin.module1.branching;
 /*
  * Задача 6.
  * Составить программу: определения наибольшего из двух чисел a и b.
- *
  */
 public class Task06 {
 

@@ -3,7 +3,7 @@ package ru.hitchin.module1.branching;
 /*
  * Задача 28.
  * Даны три числа a, b, c. Определить, какое из них равно d.
- * Если ни одно не равно d, то найти max(d - a, d - b, d - c). *
+ * Если ни одно не равно d, то найти max(d - a, d - b, d - c).
  */
 public class Task28 {
 

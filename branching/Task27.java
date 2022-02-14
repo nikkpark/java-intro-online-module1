@@ -2,7 +2,7 @@ package ru.hitchin.module1.branching;
 
 /*
  * Задача 27.
- * Найти max{min(a, b), min(c,d)} *
+ * Найти max{min(a, b), min(c,d)}
  */
 public class Task27 {
 

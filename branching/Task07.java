@@ -3,7 +3,7 @@ package ru.hitchin.module1.branching;
 /*
  * Задача 7.
  * Составить программу нахождения модуля выражения a * x * x + b * x + c
- * при заданных значениях a, b, c и x. *
+ * при заданных значениях a, b, c и x.
  */
 public class Task07 {
 

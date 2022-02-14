@@ -3,7 +3,6 @@ package ru.hitchin.module1.branching;
 /*
  * Задача 5.
  * Составить программу: определения наименьшего из двух чисел a и b.
- *
  */
 public class Task05 {
 
