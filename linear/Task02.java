@@ -7,18 +7,18 @@ package ru.hitchin.module1.linear;
 public class Task02 {
 
     public static void main(String[] args) {
-	task02();
+        task02();
     }
-    
+
     public static void task02() {
-	double a;
-	double c;
+        double a;
+        double c;
 
-	a = -5.88;
+        a = -5.88;
 
-	c = 3 + a;
+        c = 3 + a;
 
-	System.out.println("c = 3 + a");
-	System.out.println("c = " + c);
+        System.out.println("c = 3 + a");
+        System.out.println("c = " + c);
     }
 }

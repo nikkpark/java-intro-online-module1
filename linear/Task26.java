@@ -9,22 +9,22 @@ package ru.hitchin.module1.linear;
 public class Task26 {
 
     public static void main(String[] args) {
-	task26();
+        task26();
     }
-    
-    public static void task26() {	
-	double a;
-	double b;
-	double y;
-	
-	double areaOfTriangle;
-	
-	a = 5;
-	b = 7;
-	y = 30; // degrees
-	
-	areaOfTriangle = 0.5 * a * b * Math.sin(Math.toRadians(y));
-	
-	System.out.println("Area of the given triangle: " + areaOfTriangle);	
+
+    public static void task26() {
+        double a;
+        double b;
+        double y;
+
+        double areaOfTriangle;
+
+        a = 5;
+        b = 7;
+        y = 30; // degrees
+
+        areaOfTriangle = 0.5 * a * b * Math.sin(Math.toRadians(y));
+
+        System.out.println("Area of the given triangle: " + areaOfTriangle);
     }
 }

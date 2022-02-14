@@ -7,21 +7,21 @@ package ru.hitchin.module1.linear;
 public class Task03 {
 
     public static void main(String[] args) {
-	task03();
+        task03();
     }
-    
+
     public static void task03() {
-	double x;
-	double y;
-	
-	double z;
+        double x;
+        double y;
 
-	x = -19.4;
-	y = 6.1;
+        double z;
 
-	z = 2 * x + (y - 2) * 5;
+        x = -19.4;
+        y = 6.1;
 
-	System.out.println("z = 2 * x + (y - 2) * 5");
-	System.out.println("z = " + z);
+        z = 2 * x + (y - 2) * 5;
+
+        System.out.println("z = 2 * x + (y - 2) * 5");
+        System.out.println("z = " + z);
     }
 }

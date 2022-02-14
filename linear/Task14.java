@@ -10,22 +10,22 @@ package ru.hitchin.module1.linear;
 public class Task14 {
 
     public static void main(String[] args) {
-	task14();
+        task14();
     }
-    
-    public static void task14() {	
-	double radius;
-	
-	double lengthOfCircumference;
-	double areaOfCircle;
-	
-	radius = 5.0;
-	
-	lengthOfCircumference = 2 * Math.PI * radius;
-	areaOfCircle = Math.PI * Math.pow(radius, 2);
-	
-	System.out.println("Length of the given circumference: "
-			   + lengthOfCircumference);
-	System.out.println("Area of the given circle: " + areaOfCircle);	
+
+    public static void task14() {
+        double radius;
+
+        double lengthOfCircumference;
+        double areaOfCircle;
+
+        radius = 5.0;
+
+        lengthOfCircumference = 2 * Math.PI * radius;
+        areaOfCircle = Math.PI * Math.pow(radius, 2);
+
+        System.out.println("Length of the given circumference: "
+                            + lengthOfCircumference);
+        System.out.println("Area of the given circle: " + areaOfCircle);
     }
 }

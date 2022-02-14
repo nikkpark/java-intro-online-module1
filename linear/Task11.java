@@ -10,28 +10,28 @@ package ru.hitchin.module1.linear;
 public class Task11 {
 
     public static void main(String[] args) {
-	task11();
+        task11();
     }
-    
+
     public static void task11() {
-	double a;
-	double b;
-	double c; // hypotenuse
-	
-	double perimeterOfTriangle;
-	double areaOfTriangle;
+        double a;
+        double b;
+        double c; // hypotenuse
 
-	/* Heronian triangle */
-	a = 4.0;
-	b = 3.0;
+        double perimeterOfTriangle;
+        double areaOfTriangle;
 
-	c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
-	
-	perimeterOfTriangle = a + b + c;
-	areaOfTriangle = 0.5 * (a * b);
+        /* Heronian triangle */
+        a = 4.0;
+        b = 3.0;
 
-	System.out.println("Perimeter of the given triangle: "
-			   + perimeterOfTriangle);
-	System.out.println("Area of the given triangle: " + areaOfTriangle);
+        c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+
+        perimeterOfTriangle = a + b + c;
+        areaOfTriangle = 0.5 * (a * b);
+
+        System.out.println(
+                "Perimeter of the given triangle: " + perimeterOfTriangle);
+        System.out.println("Area of the given triangle: " + areaOfTriangle);
     }
 }

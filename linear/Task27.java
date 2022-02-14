@@ -9,29 +9,29 @@ package ru.hitchin.module1.linear;
 public class Task27 {
 
     public static void main(String[] args) {
-	task27();
+        task27();
     }
-    
-    public static void task27() {	
-	double a;
-	double b;
-	
-	a = 2;
-	
-	a = a * 2; // 1
-	a = a * a; // 2
-	a = a * a; // 3
-	
-	System.out.println("a^8 = " + a);
-	
-	a = 2;
-	b = a * 2; // 1
-	
-	a = b;
-	a = a * a; // 2
-	a = a * a; // 3
-	a = a * b; // 4
-	
-	System.out.println("a^10 = " + a);	
+
+    public static void task27() {
+        double a;
+        double b;
+
+        a = 2;
+
+        a = a * 2; // 1
+        a = a * a; // 2
+        a = a * a; // 3
+
+        System.out.println("a^8 = " + a);
+
+        a = 2;
+        b = a * 2; // 1
+
+        a = b;
+        a = a * a; // 2
+        a = a * a; // 3
+        a = a * b; // 4
+
+        System.out.println("a^10 = " + a);
     }
 }

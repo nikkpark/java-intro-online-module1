@@ -9,26 +9,26 @@ package ru.hitchin.module1.branching;
 public class Task17 {
 
     public static void main(String[] args) {
-	task17(3.3, 3.5);
-	task17(8.8, 6.2);
-	task17(7.9, 7.9);
+        task17(3.3, 3.5);
+        task17(8.8, 6.2);
+        task17(7.9, 7.9);
     }
-    
-    public static void task17(double numberM, double numberN) {
-	System.out.println("M = " + numberM);
-	System.out.println("N = " + numberN);
 
-	if (numberM > numberN) {
-	    numberN = numberM;
-	} else if (numberN > numberM) {
-	    numberM = numberN;
-	} else {
-	    numberM = 0.0;
-	    numberN = 0.0;
-	}
-	
-	System.out.println("M = " + numberM);
-	System.out.println("N = " + numberN);
-	System.out.println();
+    public static void task17(double numberM, double numberN) {
+        System.out.println("M = " + numberM);
+        System.out.println("N = " + numberN);
+
+        if (numberM > numberN) {
+            numberN = numberM;
+        } else if (numberN > numberM) {
+            numberM = numberN;
+        } else {
+            numberM = 0.0;
+            numberN = 0.0;
+        }
+
+        System.out.println("M = " + numberM);
+        System.out.println("N = " + numberN);
+        System.out.println();
     }
 }

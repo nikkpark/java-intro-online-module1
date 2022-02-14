@@ -7,18 +7,18 @@ package ru.hitchin.module1.linear;
  * вычислите за минимальное число операций: 2x^4 - 3x^3 + 4x^2 - 5x + 6.
  */
 public class Task39 {
-    
+
     public static void main(String[] args) {
-	task39();
+        task39();
     }
-    
+
     public static void task39() {
-	double x;
-        
+        double x;
+
         x = 4.79;
-        
+
         System.out.println("x = " + x + ":");
         System.out.print("2x^4 - 3x^3 + 4x^2 - 5x + 6 = ");
-        System.out.println(x * (x * (x * (2 * x - 3) + 4) - 5) + 6); // 8    
+        System.out.println(x * (x * (x * (2 * x - 3) + 4) - 5) + 6); // 8
     }
 }

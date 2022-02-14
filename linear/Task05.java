@@ -8,20 +8,20 @@ package ru.hitchin.module1.linear;
 public class Task05 {
 
     public static void main(String[] args) {
-	task05();
+        task05();
     }
-    
+
     public static void task05() {
- 	double a;
- 	double b;
- 	
- 	double arithmeticMean;
+        double a;
+        double b;
 
- 	a = 158.21;
- 	b = -44.0;
+        double arithmeticMean;
 
- 	arithmeticMean = (a + b) / 2.0;
+        a = 158.21;
+        b = -44.0;
 
- 	System.out.print("Arithmetic mean: " + arithmeticMean);
-     }
+        arithmeticMean = (a + b) / 2.0;
+
+        System.out.print("Arithmetic mean: " + arithmeticMean);
+    }
 }

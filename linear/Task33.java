@@ -8,16 +8,16 @@ package ru.hitchin.module1.linear;
 public class Task33 {
 
     public static void main(String[] args) {
-	task33();
+        task33();
     }
-    
-    public static void task33() {	
-	char ch;
-	
-	ch = 'y';
-	
-	System.out.println(ch + ": " + (int) ch);
-	System.out.println((char)(ch - 1) + ": " + (int) (ch - 1));
-	System.out.println((char)(ch + 1) + ": " + (int) (ch + 1));
+
+    public static void task33() {
+        char ch;
+
+        ch = 'y';
+
+        System.out.println(ch + ": " + (int) ch);
+        System.out.println((char) (ch - 1) + ": " + (int) (ch - 1));
+        System.out.println((char) (ch + 1) + ": " + (int) (ch + 1));
     }
 }

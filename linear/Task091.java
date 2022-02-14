@@ -10,19 +10,19 @@ package ru.hitchin.module1.linear;
 public class Task091 {
 
     public static void main(String[] args) {
-	task091();
+        task091();
     }
-    
+
     public static void task091() {
-	double d;
-    
-	double valueOfExpression;
+        double d;
 
-	d = 3.5; 
+        double valueOfExpression;
 
-	valueOfExpression = 1 / d;
+        d = 3.5;
 
-	System.out.println("The value of the given expression: "
-			   + valueOfExpression);
+        valueOfExpression = 1 / d;
+
+        System.out.println(
+                "The value of the given expression: " + valueOfExpression);
     }
 }

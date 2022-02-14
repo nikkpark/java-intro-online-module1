@@ -10,28 +10,27 @@ package ru.hitchin.module1.linear;
 public class Task22 {
 
     public static void main(String[] args) {
-	task22();
+        task22();
     }
-    
-    public static void task22() {	
-	int time;
-	
-	int hours;
-	int minutes;
-	int seconds;
-	
-	String formattedTime;
-	
-	time = 12305;
-	
-	hours = time / 3600;
-	minutes = (time % 3600) / 60;
-	seconds = (time % 3600) % 60;
-	
-	
-	formattedTime = String.format("%02dч %02dмин %02dс",
-				      hours, minutes, seconds);	
-	
-	System.out.println(formattedTime);
+
+    public static void task22() {
+        int time;
+
+        int hours;
+        int minutes;
+        int seconds;
+
+        String formattedTime;
+
+        time = 12305;
+
+        hours = time / 3600;
+        minutes = (time % 3600) / 60;
+        seconds = (time % 3600) % 60;
+
+        formattedTime = String.format("%02dч %02dмин %02dс",
+                                      hours, minutes, seconds);
+
+        System.out.println(formattedTime);
     }
 }

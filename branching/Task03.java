@@ -11,40 +11,39 @@ import java.util.Scanner;
 public class Task03 {
 
     public static void main(String[] args) {
-	task03();
+        task03();
     }
-    
-    public static void task03() {
-	double numberA;
-	
-	numberA = enterFromConsole("Number a: ");
 
-	/* implicit type conversion */
-	if (numberA < 3) {
-	    System.out.println("yes");
-	} else if (numberA > 3) {
-	    System.out.println("no");
-	} else {
-	    System.out.println("equal");
-	}	
+    public static void task03() {
+        double numberA;
+
+        numberA = enterFromConsole("Number a: ");
+
+        /* implicit type conversion */
+        if (numberA < 3) {
+            System.out.println("yes");
+        } else if (numberA > 3) {
+            System.out.println("no");
+        } else {
+            System.out.println("equal");
+        }
     }
-    
+
     public static double enterFromConsole(String message) {
-	double value;
-	
-	@SuppressWarnings("resource")
-	Scanner sc = new Scanner(System.in);
-	
-	System.out.print(message);
-	
-	while (!sc.hasNextDouble()) {
-	    sc.nextLine();
-	    System.out.print(message);
-	}
-	
-	value = sc.nextDouble();
-	
-	return value;	
+        double value;
+
+        @SuppressWarnings("resource")
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print(message);
+
+        while (!sc.hasNextDouble()) {
+            sc.nextLine();
+            System.out.print(message);
+        }
+
+        value = sc.nextDouble();
+
+        return value;
     }
 }
-

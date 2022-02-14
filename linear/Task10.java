@@ -10,22 +10,22 @@ package ru.hitchin.module1.linear;
 public class Task10 {
 
     public static void main(String[] args) {
-	task10();
+        task10();
     }
-    
+
     public static void task10() {
-	double x;
-	double y;
-	
-	double valueOfExpression;
+        double x;
+        double y;
 
-	x = 2.5;
-	y = 0.33;
+        double valueOfExpression;
 
-	valueOfExpression = (Math.sin(x) + Math.cos(y))
-		/ (Math.cos(x) + Math.sin(y)) * Math.tan(x * y);
+        x = 2.5;
+        y = 0.33;
 
-	System.out.println(
-		"The value of the given expression: " + valueOfExpression);
+        valueOfExpression = (Math.sin(x) + Math.cos(y))
+                / (Math.cos(x) + Math.sin(y)) * Math.tan(x * y);
+
+        System.out.println(
+                "The value of the given expression: " + valueOfExpression);
     }
 }

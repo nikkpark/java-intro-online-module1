@@ -8,21 +8,21 @@ package ru.hitchin.module1.linear;
 public class Task07 {
 
     public static void main(String[] args) {
-	task07();
+        task07();
     }
-    
+
     public static void task07() {
-	double rectangleLength;
-	double rectangleWidth;
-	
-	double areaOfRectangle;
+        double rectangleLength;
+        double rectangleWidth;
 
-	rectangleLength = 17.5;
-	rectangleWidth = rectangleLength / 2.0;
+        double areaOfRectangle;
 
-	areaOfRectangle = rectangleWidth * rectangleLength;
+        rectangleLength = 17.5;
+        rectangleWidth = rectangleLength / 2.0;
 
-	System.out.println("The area of the given rectangle: "
-			   + areaOfRectangle);
+        areaOfRectangle = rectangleWidth * rectangleLength;
+
+        System.out
+                .println("The area of the given rectangle: " + areaOfRectangle);
     }
 }

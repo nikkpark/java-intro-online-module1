@@ -7,23 +7,23 @@ package ru.hitchin.module1.linear;
 public class Task04 {
 
     public static void main(String[] args) {
-	task04();
+        task04();
     }
-    
+
     public static void task04() {
-	double a;
-	double b;
-	double c;
-	
-	double z;
+        double a;
+        double b;
+        double c;
 
-	a = 19.6;
-	b = -3.15;
-	c = 0.01;
+        double z;
 
-	z = ((a - 3) * b / 2.0) + c;
+        a = 19.6;
+        b = -3.15;
+        c = 0.01;
 
-	System.out.println("z = ((a - 3) * b / 2) + c");
-	System.out.println("z = " + z);
+        z = ((a - 3) * b / 2.0) + c;
+
+        System.out.println("z = ((a - 3) * b / 2) + c");
+        System.out.println("z = " + z);
     }
 }

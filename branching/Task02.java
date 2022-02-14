@@ -11,40 +11,40 @@ import java.util.Scanner;
 public class Task02 {
 
     public static void main(String[] args) {
-	task02();
+        task02();
     }
-    
+
     public static void task02() {
-	double firstNumber;
-	double secondNumber;
-	
-	firstNumber = enterFromConsole("First number: ");
-	secondNumber = enterFromConsole("Second number: ");
-	
-	if (firstNumber > secondNumber) {
-	    System.out.println("yes");
-	} else if (firstNumber < secondNumber) {
-	    System.out.println("no");
-	} else {
-	    System.out.println("equal");
-	}	
+        double firstNumber;
+        double secondNumber;
+
+        firstNumber = enterFromConsole("First number: ");
+        secondNumber = enterFromConsole("Second number: ");
+
+        if (firstNumber > secondNumber) {
+            System.out.println("yes");
+        } else if (firstNumber < secondNumber) {
+            System.out.println("no");
+        } else {
+            System.out.println("equal");
+        }
     }
-    
+
     public static double enterFromConsole(String message) {
-	double value;
-	
-	@SuppressWarnings("resource")
-	Scanner sc = new Scanner(System.in);
-	
-	System.out.print(message);
-	
-	while (!sc.hasNextDouble()) {
-	    sc.nextLine();
-	    System.out.print(message);
-	}
-	
-	value = sc.nextDouble();
-	
-	return value;	
+        double value;
+
+        @SuppressWarnings("resource")
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print(message);
+
+        while (!sc.hasNextDouble()) {
+            sc.nextLine();
+            System.out.print(message);
+        }
+
+        value = sc.nextDouble();
+
+        return value;
     }
 }

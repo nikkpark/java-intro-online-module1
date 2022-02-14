@@ -10,24 +10,24 @@ package ru.hitchin.module1.linear;
 public class Task08 {
 
     public static void main(String[] args) {
-	task08();
+        task08();
     }
-    
+
     public static void task08() {
-	double a;
-	double b;
-	double c;
-	
-	double valueOfExpression;
+        double a;
+        double b;
+        double c;
 
-	a = -0.003;
-	b = 12.7;
-	c = 5.1;
+        double valueOfExpression;
 
-	valueOfExpression = ((b + Math.sqrt(Math.pow(b, 2) + 4 * a * c))
-		/ (2 * a)) - Math.pow(a, 3) * c + Math.pow(b, -2);
+        a = -0.003;
+        b = 12.7;
+        c = 5.1;
 
-	System.out.println(
-		"The value of the given expression: " + valueOfExpression);
+        valueOfExpression = ((b + Math.sqrt(Math.pow(b, 2) + 4 * a * c))
+                / (2 * a)) - Math.pow(a, 3) * c + Math.pow(b, -2);
+
+        System.out.println(
+                "The value of the given expression: " + valueOfExpression);
     }
 }
