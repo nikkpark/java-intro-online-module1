@@ -17,8 +17,7 @@ public class Task39 {
     }
     
     public static void task39(double x) {
-        double fx;
-        
+        double fx;        
 
         if (x >= 8) {
             fx = Math.pow(-x, 2) + x - 9.0; 
