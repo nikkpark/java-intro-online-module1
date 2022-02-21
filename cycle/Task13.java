@@ -20,11 +20,15 @@ public class Task13 {
         b = 5;
         step = 0.5;
         
-        System.out.println("y = 5 - x^2 / 2");
-        System.out.println("x\ty");
+        System.out.println("y = 5 - x^2 / 2\n");
+        System.out.println("----------------");
+        System.out.println("|  x   |    y  |");
+        System.out.println("----------------");
         
         for (double x = a; x <= b; x = x + step) {
-            System.out.println(x + "\t" + (5 - Math.pow(x, 2) / 2 ));
+            System.out.println(String.format("|% .1f  | % .3f|",
+                                x, (5 - Math.pow(x, 2) / 2 )));
+            System.out.println("----------------");
         }
     }
 
